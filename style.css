@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Cooper Black;
+    src: url("CooperBlack-Std.otf");
+}
+
+@font-face {
+    font-family:Lemon Milk ;
+    src: url("LEMONMILK-Regular.otf");
+}
+
+@font-face {
+    font-family: Dreamline;
+    src: url("Flames-LWzG.ttf");
+}
+
+/*navigation bar at top of pages*/
+.flex-container-navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(238, 198, 202);
+    align-items: baseline;
+    justify-content: space-around;
+  }
+.flex-container-navbar-links {
+    display: flex;
+    flex: nowrap;
+    align-content: flex-end;
+}
+.flex-container-navbar a {
+    padding: 30px;
+    color: rgb(49, 94, 68);
+    font-family: lemon milk;
+}
+
+/*This is for styling the menus*/
+.menu {
+    display:flex;
+    flex: nowrap;
+    justify-content:center;
+}
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    width: 30%;
+}
+.menu-item img {
+    width:  80%;
+    height: auto;
+    object-fit: cover;
+    align-self: center;
+    }
+.menu-item h3{
+    font-family: cooper black;
+    color: rgb(199, 67, 80);
+}
+.menu-item h4{
+    font-family: Lemon Milk;
+    color: rgb(199, 67, 80);
+}
+
+
+
+/*this is for the main image that appears on the home page, it puts it in the centre and gives it the appropriate padding*/
+.responsive {
+    width: 100%;
+    height: auto;
+    padding: 170px;
+    box-sizing: border-box;
+}
+
+
+
+/*Background colour*/
+body {
+    background-color: rgb(247, 255, 247);
+}
+
+
+
+/*Style for heading and main body of text*/
+h1 {
+    text-align: center;
+    font-size: 90px;
+    padding: 40px;
+    color: rgb(199, 67, 80);
+    font-family: dreamline;
+}
+p {
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    color: rgb(199, 67, 80);
+    font-family: Cooper Black;
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: cooper black;
+    color: rgb(199, 67, 80);
+}
+
+/*Google map style*/
+.googlemap {
+    display: flex;
+    padding-bottom: 50%;
+    position: relative;
+    justify-content: center;
+}
+.googlemap iframe {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+}
+
+/*Review section style*/
+.review-section p {
+    padding: 0%;
+}
+
+/*table style*/
+table {
+    align-items: center;
+    display: flex;
+}
+td, th {
+    border: 1px solid rgb(238, 198, 202)
+}
+.opening-times {
+    display: flex;
+    justify-content: center;
+}
+.opening-times p {
+    font-size: 20px;
+    padding: 15px;
+    margin: 0%;
+}
+
+/*list style*/
+.list-parent {
+    display: flex;
+    flex: auto;
+    width: auto;
+    justify-content: center;
+}
+ul{
+    font-size: 30px;
+    font-family: cooper black;
+    color: rgb(199, 67, 80);
+}
